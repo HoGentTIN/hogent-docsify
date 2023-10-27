@@ -15,14 +15,14 @@ You can see the slides of this repository at https://hogenttin.github.io/hogent-
 
 ## Basic usage
 
-Edit, add or delete put your markdown files in the root directory.
+Edit, add or delete put your markdown files in the [docs](./docs/) directory.
 
 ### Creating slides (debugging)
 
 You can start up a live preview:
 
 ```console
-docsify serve .
+docsify serve docs
 ```
 
 _Tip: if you hide the sidebar, you can easily create PDF's using your webbrowser's `Print to PDF` function._
@@ -47,17 +47,13 @@ A [markdownlint](https://github.com/DavidAnson/markdownlint) config has been add
 
 ### Theme
 
-If you want another theme, you can change edit the `theme.css` header tag in [index.html](./index.html) to point to another CSS file. You can also use an existing link like https://hogenttin.github.io/hogent-docsify/hogent-docsify.css . Using this specific URL will always keep your theme up to date with the one on this repo.
+If you want another theme, you can change edit the `theme.css` header tag in [index.html](./docs/index.html) to point to another CSS file. You can also use an existing link like https://hogenttin.github.io/hogent-docsify/hogent-docsify.css . Using this specific URL will always keep your theme up to date with the one on this repo.
 
 ### [docsify](https://docsify.js.org) options
 
-You can add them to [index.html](./index.html) .
+You can add them to [index.html](./docs/index.html) .
 
 ## Bugs
 
 -   https://github.com/docsifyjs/docsify/issues/1929
 -   https://github.com/prettier/prettier/issues/5019
-
-## Links
-
--   Inspired by https://github.com/HoGentTIN/hogent-revealjs/ .

@@ -1,0 +1,104 @@
+/*
+ *  https://www.hogent.be/dit-is-hogent/huisstijl/huisstijl-kleuren/
+ *  https://fonts.google.com/specimen/Montserrat
+ *  https://fonts.google.com/specimen/Inconsolata
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+}
+
+.markdown-section h1 {
+    font-size: 2.5em;
+}
+
+.markdown-section h2 {
+    font-size: 1.5em;
+}
+
+.markdown-section h3 {
+    font-size: 1.25em;
+}
+
+.markdown-section h4 {
+    font-size: 1em;
+}
+
+b,
+strong {
+    color: #ef8767;
+    font-weight: bold;
+}
+
+i,
+em {
+    font-style: italic;
+}
+
+a {
+    color: #4ca2d5;
+}
+
+a:hover {
+    color: #c3bbaf;
+    text-decoration: none;
+}
+
+code {
+    color: #4ca2d5;
+    font-family: "Inconsolata", monospace;
+}
+
+pre {
+    background-color: #eeeeee;
+    white-space: pre-wrap;
+    padding: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+pre code {
+    color: #000000;
+}
+
+blockquote p {
+    font-style: italic;
+    background-color: #eeeeee;
+    white-space: pre-wrap;
+    padding: 1em;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: square;
+}
+
+ul ul ul {
+    list-style-type: circle;
+}
+
+.sidebar-nav h1 {
+    margin-left: 15px;
+}

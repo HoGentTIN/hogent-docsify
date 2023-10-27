@@ -15,7 +15,7 @@ You can see the slides of this repository at https://hogenttin.github.io/hogent-
 
 ## Basic usage
 
-Edit, add or delete put your markdown files in the [docs](./docs/) directory.
+Edit, add or delete your markdown files in the [docs](./docs/) directory.
 
 ### Creating slides (debugging)
 

@@ -65,11 +65,14 @@ code {
 }
 
 pre {
-    background-color: #eeeeee;
     white-space: pre-wrap;
     padding: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #c3bbaf;
+    border-radius: 10px;
 }
 
 pre code {
@@ -78,9 +81,12 @@ pre code {
 
 blockquote p {
     font-style: italic;
-    background-color: #eeeeee;
     white-space: pre-wrap;
     padding: 1em;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #c3bbaf;
+    border-radius: 10px;
 }
 
 ol {
@@ -97,6 +103,16 @@ ul ul {
 
 ul ul ul {
     list-style-type: circle;
+}
+
+.markdown-section tr,
+.markdown-section th {
+    border-style: none;
+}
+
+.markdown-section td {
+    border-style: solid none none none;
+    border-color: black;
 }
 
 .sidebar-nav h1 {

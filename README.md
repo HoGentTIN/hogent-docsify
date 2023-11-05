@@ -47,7 +47,7 @@ A [markdownlint](https://github.com/DavidAnson/markdownlint) config has been add
 
 ### Theme
 
-If you want another theme, you can change edit the `theme.css` header tag in [index.html](./docs/index.html) to point to another CSS file. You can also use an existing link like https://hogenttin.github.io/hogent-docsify/hogent-docsify.css . Using this specific URL will always keep your theme up to date with the one on this repo.
+If you want another theme, you can change edit the `theme.css` header tag in [index.html](./docs/index.html) to point to another CSS file. You can also use an existing link like https://hogenttin.github.io/hogent-docsify/theme.css . Using this specific URL will always keep your theme up to date with the one on this repo.
 
 ### [docsify](https://docsify.js.org) options
 

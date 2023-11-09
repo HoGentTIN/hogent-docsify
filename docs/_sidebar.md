@@ -2,6 +2,7 @@
 
 <!--
     Use absolute paths here!
+    See https://github.com/docsifyjs/docsify/issues/1891
 -->
 
 -   [Home](/index.md)

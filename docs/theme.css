@@ -65,7 +65,7 @@ code {
 }
 
 pre {
-    overflow: scroll;
+    overflow: auto;
 
     /* Use the following instead of `overflow` if you want word wrap
      */

@@ -65,7 +65,7 @@ code {
 }
 
 pre {
-    overflow: scroll;
+    overflow: auto;
 
     /* Use the following instead of `overflow` if you want word wrap
      */
@@ -86,7 +86,6 @@ pre code {
 
 blockquote p {
     font-style: italic;
-    white-space: pre-wrap;
     padding: 1em;
     border-style: solid;
     border-width: 1px;

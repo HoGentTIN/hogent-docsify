@@ -10,7 +10,7 @@ You can see the slides of this repository at https://hogenttin.github.io/hogent-
 2. Install [docsify-cli](https://github.com/docsifyjs/docsify-cli) :
 
     ```console
-    npm install -g docsify-cli
+    npm install --global docsify-cli
     ```
 
 ## Basic usage

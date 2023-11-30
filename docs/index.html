@@ -10,11 +10,11 @@
         <!-- Docsify -->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@latest/lib/themes/pure.css" />
 
-        <!-- Prism -->
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prism-themes@latest/themes/prism-vs.min.css" />
-
         <!-- KaTeX -->
         <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+
+        <!-- Prism -->
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prism-themes@latest/themes/prism-vs.min.css" />
 
         <!-- Custom theme -->
         <link rel="stylesheet" href="theme.css" />
@@ -38,6 +38,17 @@
         <!-- Docsify LaTeX -->
         <script src="//cdn.jsdelivr.net/npm/mathjax@latest/es5/tex-mml-chtml.js"></script>
         <script src="//cdn.jsdelivr.net/npm/docsify-latex@latest"></script>
+
+        <!-- Docsify Mermaid -->
+        <script type="module">
+            import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@latest/dist/mermaid.esm.min.mjs";
+            mermaid.initialize({ startOnLoad: true });
+            window.mermaid = mermaid;
+        </script>
+        <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+
+        <!-- Docsify PlantUML -->
+        <script src="//unpkg.com/docsify-plantuml@latest/dist/docsify-plantuml.min.js"></script>
 
         <!-- Prism: add the languages you want to highlight here (see https://prismjs.com/#supported-languages ) -->
         <script src="//cdn.jsdelivr.net/npm/prismjs@latest/components/prism-bash.min.js"></script>

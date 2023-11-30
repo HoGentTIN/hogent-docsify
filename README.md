@@ -4,6 +4,23 @@ Build a documentation website using markdown.
 
 You can see the documentation website of this repository at https://hogenttin.github.io/hogent-docsify/ . Play with it to see what it can do!
 
+## Table of Contents
+
+-   [Basic usage](#basic-usage)
+    -   [How do I use this?](#how-do-i-use-this)
+    -   [Live preview](#live-preview)
+    -   [Generate PDF](#generate-pdf)
+-   [Configuration](#configuration)
+    -   [Theme](#theme)
+    -   [docsify options](#docsify-options)
+    -   [Docsify plugins](#docsify-plugins)
+-   [Additional tools](#additional-tools)
+    -   [Automatic deployment](#automatic-deployment)
+    -   [Formatting](#formatting)
+    -   [Linting](#linting)
+-   [Bugs](#bugs)
+-   [Links](#links)
+
 ## Basic usage
 
 ### How do I use this?
@@ -76,3 +93,7 @@ A [markdownlint](https://github.com/DavidAnson/markdownlint) config has been add
 
 -   https://github.com/docsifyjs/docsify/issues/1929
 -   https://github.com/prettier/prettier/issues/5019
+
+## Links
+
+-   https://docsify.js.org

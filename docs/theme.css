@@ -13,6 +13,13 @@
     --hogent-red: #ef8767;
     --hogent-white: #ffffff;
     --hogent-black: #000000;
+
+    /* HOGENT blue is good for slides and accents with bold text, but is too bright for regular text. Therefore, we use 
+     * a darker blue for text, like the blue Wikipedia uses for links.
+     * https://en.wikipedia.org/wiki/Help:Link_color#Standard_colors
+     */
+    --wikipedia-blue: #3366cc;
+    --blue: var(--wikipedia-blue);
 }
 
 body {
@@ -59,7 +66,7 @@ em {
 }
 
 a {
-    color: var(--hogent-blue);
+    color: var(--blue);
 }
 
 a:hover {
@@ -68,7 +75,7 @@ a:hover {
 }
 
 code {
-    color: var(--hogent-blue);
+    color: var(--blue);
     font-family: "Inconsolata", monospace;
 }
 

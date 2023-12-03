@@ -7,6 +7,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
+:root {
+    --hogent-blue: #4ca2d5;
+    --hogent-gray: #c3bbaf;
+    --hogent-red: #ef8767;
+    --hogent-white: #ffffff;
+    --hogent-black: #000000;
+}
+
 body {
     font-family: "Montserrat", "Arial", sans-serif;
     font-weight: 400;
@@ -41,7 +49,7 @@ h6 {
 
 b,
 strong {
-    color: #ef8767;
+    color: var(--hogent-red);
     font-weight: bold;
 }
 
@@ -51,16 +59,16 @@ em {
 }
 
 a {
-    color: #4ca2d5;
+    color: var(--hogent-blue);
 }
 
 a:hover {
-    color: #c3bbaf;
+    color: var(--hogent-gray);
     text-decoration: none;
 }
 
 code {
-    color: #4ca2d5;
+    color: var(--hogent-blue);
     font-family: "Inconsolata", monospace;
 }
 
@@ -76,12 +84,12 @@ pre {
     margin-bottom: 1em;
     border-style: solid;
     border-width: 1px;
-    border-color: #c3bbaf;
+    border-color: var(--hogent-gray);
     border-radius: 5px;
 }
 
 pre code {
-    color: #000000;
+    color: var(--hogent-black);
 }
 
 blockquote p {
@@ -89,7 +97,7 @@ blockquote p {
     padding: 1em;
     border-style: solid;
     border-width: 1px;
-    border-color: #c3bbaf;
+    border-color: var(--hogent-gray);
     border-radius: 5px;
 }
 
@@ -116,7 +124,7 @@ ul ul ul {
 
 .markdown-section td {
     border-style: solid none none none;
-    border-color: black;
+    border-color: var(--hogent-black);
 }
 
 .sidebar-nav h1 {
